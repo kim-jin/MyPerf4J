@@ -1,3 +1,4 @@
 1.start
-PreMain.java->premain()
-2.
+PreMain.java->public static void premain(String options, Instrumentation ins)
+2.about Instrumentation: 这个模块作为JVM启动的时候一个参数传进去。通过持有这个对象，agent的代码(它的行为与root类加载器加载的任何Java代码一样)可以执行一些非常强大的功能。
+http://docs.oracle.com/javase/7/docs/api/java/lang/instrument/Instrumentation.html
